@@ -2527,6 +2527,28 @@ input, select, textarea {
 			margin: 0;
 		}
 
+		/* CUSTOM HEADER FIX */
+		#logo-container {
+		  text-align: center;
+		  padding: 20px 0 10px 0;
+		}
+		
+		#logo-container h1 {
+		  margin-bottom: 5px;
+		  font-size: 2em;
+		  letter-spacing: 1px;
+		}
+		
+		#logo-container p {
+		  margin: 0;
+		  font-size: 1em;
+		  opacity: 0.8;
+		}
+		
+		#nav {
+		  margin-top: 10px;
+		}
+
 /* Header */
 
 	#header {
@@ -3356,5 +3378,5 @@ input, select, textarea {
 				padding: 2em 20px;
 				text-align: left;
 			}
-
+	
 	}
