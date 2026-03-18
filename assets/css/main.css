@@ -3387,3 +3387,16 @@ input, select, textarea {
   transform: scale(1.05);
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
+/* Fix Follow section alignment */
+#footer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* space between icons */
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+#footer .icons li {
+  list-style: none;
+}
