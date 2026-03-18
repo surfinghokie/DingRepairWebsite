@@ -2696,7 +2696,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2710,9 +2710,9 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			background: #212121;
-			background: rgba(27, 27, 27, 0.75);
+			background: rgba(0, 0, 0, 0.55);
 			color: #fff;
-			padding: 1.5em 0;
+			padding: 2em 0;
 		}
 
 			#banner header h2 {
@@ -2720,8 +2720,13 @@ input, select, textarea {
 				margin: 0;
 				font-size: 1.25em;
 				vertical-align: middle;
+				font-size: 1.8em;
+ 				font-weight: 600;
 			}
-
+			#banner header p {
+			  font-size: 1.2em;
+			  margin-top: 0.5em;
+			}
 				#banner header h2 em {
 					opacity: 0.75;
 				}
