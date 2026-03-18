@@ -2530,16 +2530,29 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		text-align: center;
- 		padding: 4em 0 2em 0;
+	 position: relative;
+ 	 text-align: center;
+  	 padding: 6em 0 4em 0;
 
-  		background-image: url("../images/banner2.jpg");
-  		background-size: cover;
-  		background-position: center;
+	  background-image: url("../images/banner2.jpg");
+	  background-size: cover;
+	  background-position: center;
+	  background-repeat: no-repeat;
 
-  		color: white;
+  color: white;
 	}
 
+	#header::before {
+	  content: "";
+	  position: absolute;
+	  inset: 0;
+	  background: rgba(0, 0, 0, 0.5);
+	}
+
+		#header > * {
+	  position: relative;
+	  z-index: 2;
+	}
 		#header h1 a {
 		  color: white;
 		}
@@ -2556,7 +2569,7 @@ input, select, textarea {
 
 	#nav {
 		cursor: default;
-		background-color: #333;
+		background-color:rgba(0, 0, 0, 0.6);
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
@@ -2980,7 +2993,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				display: none;
+				display: block;
 			}
 
 		/* Banner */
