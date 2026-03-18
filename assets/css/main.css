@@ -2696,12 +2696,12 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("images/banner.jpg");
-		background-position: center center;
-		background-size: cover;
-		height: 28em;
-		text-align: center;
-		position: relative;
+		 background-image: url("images/banner.jpg");
+	 	 background-position: center;
+	 	 background-size: cover;
+	  	 background-repeat: no-repeat;
+	  	 height: 80vh;
+	 	 min-height: 500px;
 	}
 
 		#banner header {
