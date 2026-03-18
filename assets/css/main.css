@@ -2532,7 +2532,7 @@ input, select, textarea {
 	#header {
 	 position: relative;
  	 text-align: center;
-  	 padding: 6em 0 4em 0;
+  	 padding: 6em 0 0 0;
 
 	  background-image: url("../images/banner2.jpg");
 	  background-size: cover;
