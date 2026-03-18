@@ -2696,7 +2696,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		 background-image: url("images/banner.jpg");
+		 background-image: url("/DingRepairWebsite/images/banner.jpg"");
 	 	 background-position: center;
 	 	 background-size: cover;
 	  	 background-repeat: no-repeat;
