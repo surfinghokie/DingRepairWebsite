@@ -29,17 +29,17 @@
   <section class="wrapper style2">
   <div class="container">
 
-    <div class="row gtr-200">
+    <!-- FLEXBOX (SAFER THAN TEMPLATE GRID) -->
+    <div style="display:flex; align-items:center; gap:40px; flex-wrap:wrap;">
 
       <!-- LOGO -->
-      <div class="col-4 col-12-narrower" style="text-align:center;">
-        <span class="image fit">
-          <img src="assets/images/logo.png" alt="Nostalgia Logo" style="max-width:250px;">
-        </span>
+      <div style="flex:1; min-width:250px; text-align:center;">
+        <img src="assets/images/logo.png" 
+             style="max-width:250px; border-radius:10px;">
       </div>
 
       <!-- TEXT -->
-      <div class="col-8 col-12-narrower">
+      <div style="flex:2; min-width:300px;">
 
         <header class="major">
           <h2>Our Story</h2>
